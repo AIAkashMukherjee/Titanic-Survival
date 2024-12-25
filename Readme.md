@@ -55,7 +55,7 @@ The main objective of this project was to build a machine learning model that pr
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/titanic-survival-prediction.git
+   git clone https://github.com/AIAkashMukherjee/Titanic-Survival.git
 2. Install dependencies:
 
    pip install -r requirements.txt
