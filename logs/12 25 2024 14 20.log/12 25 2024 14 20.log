@@ -1,0 +1,6 @@
+[ 2024-12-25 14:22:12,845 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 14:22:12,846 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 14:22:12,846 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 14:22:12,847 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_ingestion
+[ 2024-12-25 14:22:12,847 ] 6 src.logger.custom_logging - INFO - Data Ingestion Started
+[ 2024-12-25 14:22:12,854 ] 17 src.logger.custom_logging - INFO - Data Ingestion finished

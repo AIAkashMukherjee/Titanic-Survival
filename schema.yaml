@@ -1,0 +1,11 @@
+COLUMNS:
+  Pclass: int64  
+  Sex: object 
+  Age: float64
+  SibSp: int64  
+  Parch: int64  
+  Fare: float64
+  Embarked: object 
+
+TARGET_COLUMN:
+  name: Survived  

@@ -1,0 +1,107 @@
+[ 2024-12-25 14:28:04,044 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 14:28:04,045 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 14:28:04,045 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 14:28:04,045 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 14:28:14,017 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 14:28:14,017 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 14:28:14,018 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 14:28:14,018 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 14:28:14,018 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:28:14,018 ] 25 src.logger.custom_logging - INFO - Reading train and test data
+[ 2024-12-25 14:28:14,035 ] 66 src.logger.custom_logging - ERROR - An unexpected error occurred: 'DataTransformation' object has no attribute 'create_preprocessor'
+[ 2024-12-25 14:28:36,048 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 14:28:36,049 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 14:28:36,049 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 14:28:36,049 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 14:28:36,049 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:28:36,049 ] 25 src.logger.custom_logging - INFO - Reading train and test data
+[ 2024-12-25 14:28:36,058 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:30:39,268 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 14:30:39,269 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 14:30:39,269 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 14:30:39,269 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 14:30:39,269 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:30:39,269 ] 25 src.logger.custom_logging - INFO - Reading train and test data
+[ 2024-12-25 14:30:39,278 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:30:39,284 ] 65 src.logger.custom_logging - ERROR - An unexpected error occurred: Shape of passed values is (334, 5), indices imply (334, 8)
+[ 2024-12-25 14:32:32,785 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 14:32:32,786 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 14:32:32,787 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 14:32:32,787 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 14:32:32,787 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:32:32,787 ] 25 src.logger.custom_logging - INFO - Reading train and test data
+[ 2024-12-25 14:32:32,790 ] 34 src.logger.custom_logging - INFO - Filling missing values for 'Fare' column grouped by 'Pclass'
+[ 2024-12-25 14:32:32,793 ] 38 src.logger.custom_logging - INFO - Filling missing values for 'Age' column grouped by 'Pclass' and 'Sex'
+[ 2024-12-25 14:32:32,796 ] 43 src.logger.custom_logging - INFO - Columns after filling missing values in training data: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+[ 2024-12-25 14:32:32,796 ] 44 src.logger.custom_logging - INFO - Columns after filling missing values in testing data: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+[ 2024-12-25 14:32:32,797 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:32:32,802 ] 78 src.logger.custom_logging - ERROR - An unexpected error occurred: Shape of passed values is (334, 5), indices imply (334, 8)
+[ 2024-12-25 14:33:00,484 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 14:33:00,485 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 14:33:00,485 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 14:33:00,485 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 14:33:00,485 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:33:00,485 ] 25 src.logger.custom_logging - INFO - Reading train and test data
+[ 2024-12-25 14:33:00,493 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:33:00,498 ] 65 src.logger.custom_logging - ERROR - An unexpected error occurred: Shape of passed values is (334, 5), indices imply (334, 8)
+[ 2024-12-25 14:33:41,573 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 14:33:41,574 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 14:33:41,574 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 14:33:41,574 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 14:33:41,574 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:33:41,574 ] 25 src.logger.custom_logging - INFO - Reading train and test data
+[ 2024-12-25 14:33:41,577 ] 28 src.logger.custom_logging - INFO - Columns in the training data: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+[ 2024-12-25 14:33:41,577 ] 29 src.logger.custom_logging - INFO - Columns in the testing data: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+[ 2024-12-25 14:33:41,582 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:33:41,587 ] 67 src.logger.custom_logging - ERROR - An unexpected error occurred: Shape of passed values is (334, 5), indices imply (334, 8)
+[ 2024-12-25 14:37:06,543 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 14:37:06,544 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 14:37:06,544 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 14:37:06,544 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 14:37:06,544 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:37:06,544 ] 28 src.logger.custom_logging - INFO - Reading train and test data
+[ 2024-12-25 14:37:06,548 ] 31 src.logger.custom_logging - INFO - Columns in the training data: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+[ 2024-12-25 14:37:06,548 ] 32 src.logger.custom_logging - INFO - Columns in the testing data: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+[ 2024-12-25 14:37:06,554 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:37:06,559 ] 70 src.logger.custom_logging - ERROR - An unexpected error occurred: Shape of passed values is (334, 5), indices imply (334, 8)
+[ 2024-12-25 14:37:26,713 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 14:37:26,714 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 14:37:26,714 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 14:37:26,714 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 14:37:26,714 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:37:26,714 ] 28 src.logger.custom_logging - INFO - Reading train and test data
+[ 2024-12-25 14:37:26,717 ] 31 src.logger.custom_logging - INFO - Columns in the training data: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+[ 2024-12-25 14:37:26,717 ] 32 src.logger.custom_logging - INFO - Columns in the testing data: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+[ 2024-12-25 14:37:26,722 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:47:14,494 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 14:47:14,495 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 14:47:14,495 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 14:47:14,495 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 14:47:14,495 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:47:14,499 ] 39 src.logger.custom_logging - INFO - Filling missing values for 'Fare' column grouped by 'Pclass'
+[ 2024-12-25 14:47:14,501 ] 43 src.logger.custom_logging - INFO - Filling missing values for 'Age' column grouped by 'Pclass' and 'Sex'
+[ 2024-12-25 14:47:14,503 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:48:59,938 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 14:48:59,938 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 14:48:59,938 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 14:48:59,939 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 14:48:59,939 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:48:59,941 ] 39 src.logger.custom_logging - INFO - Filling missing values for 'Fare' column grouped by 'Pclass'
+[ 2024-12-25 14:48:59,943 ] 43 src.logger.custom_logging - INFO - Filling missing values for 'Age' column grouped by 'Pclass' and 'Sex'
+[ 2024-12-25 14:48:59,946 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:49:12,758 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 14:49:12,759 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 14:49:12,759 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 14:49:12,759 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 14:49:12,759 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 14:49:12,762 ] 39 src.logger.custom_logging - INFO - Filling missing values for 'Fare' column grouped by 'Pclass'
+[ 2024-12-25 14:49:12,764 ] 43 src.logger.custom_logging - INFO - Filling missing values for 'Age' column grouped by 'Pclass' and 'Sex'
+[ 2024-12-25 14:49:12,767 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 15:54:02,151 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 15:54:02,152 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 15:54:02,152 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 15:54:02,152 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 15:54:02,152 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 15:54:02,158 ] 38 src.logger.custom_logging - INFO - Filling missing values for 'Fare' column grouped by 'Pclass'
+[ 2024-12-25 15:54:02,162 ] 42 src.logger.custom_logging - INFO - Filling missing values for 'Age' column grouped by 'Pclass' and 'Sex'
+[ 2024-12-25 15:54:02,164 ] 7 src.logger.custom_logging - INFO - Creating data transformation pipeline

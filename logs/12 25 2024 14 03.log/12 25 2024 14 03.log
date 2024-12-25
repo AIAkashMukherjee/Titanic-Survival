@@ -1,0 +1,51 @@
+[ 2024-12-25 14:03:23,288 ] 31 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage started <<<<<<
+[ 2024-12-25 14:03:23,289 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 14:03:23,290 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 14:03:23,290 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 14:03:23,290 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_ingestion
+[ 2024-12-25 14:03:23,290 ] 15 src.logger.custom_logging - INFO - Data Ingestion Started
+[ 2024-12-25 14:03:23,290 ] 36 src.logger.custom_logging - ERROR - object.__init__() takes exactly one argument (the instance to initialize)
+Traceback (most recent call last):
+  File "/Users/akashmukherjee/Programming/Internship/IMMERSIVIFY/Titanic/src/components/data_ingestion.py", line 17, in initate_data_ingestion
+    df=pd.read_csv('artifacts/data_ingestion/AmesHousing.csv')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akashmukherjee/Programming/Internship/IMMERSIVIFY/Titanic/my_Env/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akashmukherjee/Programming/Internship/IMMERSIVIFY/Titanic/my_Env/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akashmukherjee/Programming/Internship/IMMERSIVIFY/Titanic/my_Env/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akashmukherjee/Programming/Internship/IMMERSIVIFY/Titanic/my_Env/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Users/akashmukherjee/Programming/Internship/IMMERSIVIFY/Titanic/my_Env/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/AmesHousing.csv'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/akashmukherjee/Programming/Internship/IMMERSIVIFY/Titanic/src/pipeline/stage_01_data_ingest_pipe.py", line 24, in main
+    data_ingestion.initate_data_ingestion()
+  File "/Users/akashmukherjee/Programming/Internship/IMMERSIVIFY/Titanic/src/components/data_ingestion.py", line 33, in initate_data_ingestion
+    raise CustomException(e,sys)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akashmukherjee/Programming/Internship/IMMERSIVIFY/Titanic/src/exceptions/expection.py", line 17, in __init__
+    super().__init__(error_msg)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/akashmukherjee/Programming/Internship/IMMERSIVIFY/Titanic/src/pipeline/stage_01_data_ingest_pipe.py", line 33, in <module>
+    obj.main()
+  File "/Users/akashmukherjee/Programming/Internship/IMMERSIVIFY/Titanic/src/pipeline/stage_01_data_ingest_pipe.py", line 27, in main
+    raise CustomException(e,sys)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/akashmukherjee/Programming/Internship/IMMERSIVIFY/Titanic/src/exceptions/expection.py", line 17, in __init__
+    super().__init__(error_msg)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
