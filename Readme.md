@@ -59,6 +59,32 @@ DVC was used to track large files such as the trained model (`model.pkl`) and da
 * The Random Forest model achieved **100% accuracy** on the Titanic dataset, which is highly impressive, but should be validated on other test sets or with cross-validation to avoid overfitting.
 * The Streamlit web application was successfully deployed, allowing real-time predictions with an intuitive interface.
 
+## Docker Setup
+
+To run this project in a containerized environment using Docker, follow these steps:
+
+#### 1. Build the Docker Image
+
+1. Navigate to the project directory and run the following command to build the Docker image:
+
+   ```bash
+   docker build -t titanic-survival .
+   ```
+
+Once the image is built, run the following command to start the container and map the Streamlit app port:
+
+#### 2. Run the Docker Container
+
+After building the image, run the container:
+
+docker run -p 8501:8501 titanic-survival
+
+#### 3. Access the Streamlit Application
+
+After the container is running, open your browser and visit the following URL to access the Streamlit application:
+
+http://localhost:8501
+
 ### Installation
 
 1. Clone the repository:

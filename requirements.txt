@@ -11,4 +11,4 @@ streamlit
 python-box
 ensure
 python-dotenv
--e .
+# -e .
