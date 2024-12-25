@@ -1,0 +1,42 @@
+[ 2024-12-25 20:25:28,947 ] 31 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage started <<<<<<
+[ 2024-12-25 20:25:28,948 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 20:25:28,949 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 20:25:28,949 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 20:25:28,949 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_ingestion
+[ 2024-12-25 20:25:28,950 ] 15 src.logger.custom_logging - INFO - Data Ingestion Started
+[ 2024-12-25 20:25:28,954 ] 26 src.logger.custom_logging - INFO - Data Ingestion finished
+[ 2024-12-25 20:25:28,954 ] 34 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[ 2024-12-25 20:25:46,553 ] 31 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage started <<<<<<
+[ 2024-12-25 20:25:46,554 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 20:25:46,554 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 20:25:46,554 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 20:25:46,554 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_ingestion
+[ 2024-12-25 20:25:46,554 ] 15 src.logger.custom_logging - INFO - Data Ingestion Started
+[ 2024-12-25 20:25:46,559 ] 26 src.logger.custom_logging - INFO - Data Ingestion finished
+[ 2024-12-25 20:25:46,559 ] 34 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[ 2024-12-25 20:25:53,755 ] 31 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage started <<<<<<
+[ 2024-12-25 20:25:53,756 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 20:25:53,756 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 20:25:53,756 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 20:25:53,756 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_ingestion
+[ 2024-12-25 20:25:53,756 ] 15 src.logger.custom_logging - INFO - Data Ingestion Started
+[ 2024-12-25 20:25:53,761 ] 26 src.logger.custom_logging - INFO - Data Ingestion finished
+[ 2024-12-25 20:25:53,761 ] 34 src.logger.custom_logging - INFO - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[ 2024-12-25 20:25:54,517 ] 28 src.logger.custom_logging - INFO - >>>>>> stage Prepare Base Model stage started <<<<<<
+[ 2024-12-25 20:25:54,518 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 20:25:54,518 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 20:25:54,519 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 20:25:54,519 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 20:25:54,519 ] 19 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 20:25:54,521 ] 50 src.logger.custom_logging - INFO - Filling missing values for 'Fare' column grouped by 'Pclass'
+[ 2024-12-25 20:25:54,523 ] 54 src.logger.custom_logging - INFO - Filling missing values for 'Age' column grouped by 'Pclass' and 'Sex'
+[ 2024-12-25 20:25:54,524 ] 19 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 20:25:54,531 ] 31 src.logger.custom_logging - INFO - >>>>>> stage Prepare Base Model stage completed <<<<<<
+
+x==========x

@@ -1,0 +1,70 @@
+[ 2024-12-25 20:26:03,060 ] 28 src.logger.custom_logging - INFO - >>>>>> stage Prepare Base Model stage started <<<<<<
+[ 2024-12-25 20:26:03,061 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 20:26:03,062 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 20:26:03,062 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 20:26:03,062 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 20:26:03,062 ] 19 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 20:26:03,064 ] 50 src.logger.custom_logging - INFO - Filling missing values for 'Fare' column grouped by 'Pclass'
+[ 2024-12-25 20:26:03,066 ] 54 src.logger.custom_logging - INFO - Filling missing values for 'Age' column grouped by 'Pclass' and 'Sex'
+[ 2024-12-25 20:26:03,068 ] 19 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 20:26:03,075 ] 31 src.logger.custom_logging - INFO - >>>>>> stage Prepare Base Model stage completed <<<<<<
+
+x==========x
+[ 2024-12-25 20:26:11,283 ] 28 src.logger.custom_logging - INFO - >>>>>> stage Prepare Base Model stage started <<<<<<
+[ 2024-12-25 20:26:11,284 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 20:26:11,284 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 20:26:11,284 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 20:26:11,284 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 20:26:11,284 ] 19 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 20:26:11,286 ] 50 src.logger.custom_logging - INFO - Filling missing values for 'Fare' column grouped by 'Pclass'
+[ 2024-12-25 20:26:11,288 ] 54 src.logger.custom_logging - INFO - Filling missing values for 'Age' column grouped by 'Pclass' and 'Sex'
+[ 2024-12-25 20:26:11,290 ] 19 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 20:26:11,296 ] 31 src.logger.custom_logging - INFO - >>>>>> stage Prepare Base Model stage completed <<<<<<
+
+x==========x
+[ 2024-12-25 20:26:17,834 ] 28 src.logger.custom_logging - INFO - >>>>>> stage Prepare Base Model stage started <<<<<<
+[ 2024-12-25 20:26:17,835 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 20:26:17,835 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 20:26:17,835 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 20:26:17,835 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/data_transformation
+[ 2024-12-25 20:26:17,835 ] 19 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 20:26:17,837 ] 50 src.logger.custom_logging - INFO - Filling missing values for 'Fare' column grouped by 'Pclass'
+[ 2024-12-25 20:26:17,839 ] 54 src.logger.custom_logging - INFO - Filling missing values for 'Age' column grouped by 'Pclass' and 'Sex'
+[ 2024-12-25 20:26:17,841 ] 19 src.logger.custom_logging - INFO - Creating data transformation pipeline
+[ 2024-12-25 20:26:17,848 ] 31 src.logger.custom_logging - INFO - >>>>>> stage Prepare Base Model stage completed <<<<<<
+
+x==========x
+[ 2024-12-25 20:26:18,635 ] 28 src.logger.custom_logging - INFO - >>>>>> stage Model Trainer stage started <<<<<<
+[ 2024-12-25 20:26:18,636 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 20:26:18,636 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 20:26:18,636 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 20:26:18,636 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/model_trainer
+[ 2024-12-25 20:26:18,696 ] 31 src.logger.custom_logging - INFO - >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x
+[ 2024-12-25 20:26:24,328 ] 28 src.logger.custom_logging - INFO - >>>>>> stage Model Trainer stage started <<<<<<
+[ 2024-12-25 20:26:24,329 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 20:26:24,330 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 20:26:24,330 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 20:26:24,330 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/model_trainer
+[ 2024-12-25 20:26:24,392 ] 31 src.logger.custom_logging - INFO - >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x
+[ 2024-12-25 20:26:25,906 ] 29 src.logger.custom_logging - INFO - >>>>>> stage Model Evaluation stage started <<<<<<
+[ 2024-12-25 20:26:25,907 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 20:26:25,907 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 20:26:25,907 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 20:26:25,907 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/model_evaluation
+[ 2024-12-25 20:26:25,982 ] 26 src.logger.custom_logging - INFO - json file saved at: artifacts/model_evaluation/metrics.json
+[ 2024-12-25 20:26:35,395 ] 32 src.logger.custom_logging - INFO - >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x
+[ 2024-12-25 20:27:01,055 ] 29 src.logger.custom_logging - INFO - >>>>>> stage Model Evaluation stage started <<<<<<
+[ 2024-12-25 20:27:01,056 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 20:27:01,057 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 20:27:01,057 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 20:27:01,057 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/model_evaluation
+[ 2024-12-25 20:27:01,135 ] 26 src.logger.custom_logging - INFO - json file saved at: artifacts/model_evaluation/metrics.json
+[ 2024-12-25 20:27:09,598 ] 32 src.logger.custom_logging - INFO - >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x

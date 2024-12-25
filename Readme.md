@@ -37,6 +37,14 @@ The main objective of this project was to build a machine learning model that pr
 * A user-friendly web application was created using **Streamlit** to allow users to input their information and predict whether a Titanic passenger survived.
 * The app takes user input for features such as age, fare, sex, class, and embarked status and returns a prediction with color-coded feedback (green for survived, red for not survived).
 
+### DVC Integration
+
+DVC was used to track large files such as the trained model (`model.pkl`) and dataset (`titanic_data.csv`). This ensures that every change in the data and model is versioned, and you can reproduce the results on any machine.
+
+- **Steps for DVC Integration:**
+  1. Initialize DVC in the project with `dvc init`.
+  2. Track the model and dataset with `dvc add`.
+
 ## Challenges Faced
 
 1. **Handling Missing Values:**

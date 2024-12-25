@@ -1,0 +1,9 @@
+[ 2024-12-25 20:28:28,214 ] 29 src.logger.custom_logging - INFO - >>>>>> stage Model Evaluation stage started <<<<<<
+[ 2024-12-25 20:28:28,216 ] 45 src.logger.custom_logging - INFO - yaml file: config/config.yaml loaded successfully
+[ 2024-12-25 20:28:28,216 ] 45 src.logger.custom_logging - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-25 20:28:28,216 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts
+[ 2024-12-25 20:28:28,216 ] 65 src.logger.custom_logging - INFO - created directory at: artifacts/model_evaluation
+[ 2024-12-25 20:28:28,295 ] 26 src.logger.custom_logging - INFO - json file saved at: artifacts/model_evaluation/metrics.json
+[ 2024-12-25 20:28:37,148 ] 32 src.logger.custom_logging - INFO - >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x
