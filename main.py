@@ -2,7 +2,7 @@ from src.logger.custom_logging import logger
 from src.pipeline.stage_01_data_ingest_pipe import DataIngestionPipe
 from src.pipeline.stage_02_data_transform_pipe import DataTransformPipe
 from src.pipeline.stage_03_model_train_pipe import ModelTrainPipe
-# from src.pipeline.stage_04_model_evaluation import ModelEvalPipe
+from src.pipeline.stage_04_model_eval import ModelEvalPipe
 from src.exceptions.expection import CustomException
 import sys
 
@@ -21,8 +21,8 @@ if __name__ == "__main__":
     stages = [
         ("Data Ingestion stage", DataIngestionPipe),
         ("Data Transformation stage", DataTransformPipe),
-        ("Model Trainer stage", ModelTrainPipe)
-        # ('Model Evaluation stage',ModelEvalPipe)
+        ("Model Trainer stage", ModelTrainPipe),
+        ('Model Evaluation stage',ModelEvalPipe)
 
     ]
 

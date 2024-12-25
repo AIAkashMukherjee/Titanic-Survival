@@ -54,15 +54,15 @@ class ConfigManager:
 
         )    
         return model_trainer_config
-
-    # def eval_config(self):
-    #     os.environ['MLFLOW_TRACKING_URI'] = "https://dagshub.com/AIAkashMukherjee/House-Sale-Price-Prediction-.mlflow"
-    #     os.environ['MLFLOW_TRACKING_USERNAME']='AIAkashMukherjee'
-    #     os.environ['MLFLOW_TRACKING_PASSWORD'] = '588b7f4279c32acc1263e6c2cfbbd743a7f77705'
-    #     eval_confg=EvaluationConfig(
-    #         model_path="artifacts/model_trainer/model.pkl",
-    #         test_data="artifacts/data_transformation/final_test.csv",
-    #         mlflow_uri=os.environ['MLFLOW_TRACKING_URI'],
+    
+    def eval_config(self):
+        config = self.config.model_evaluation
+        create_directories([config.root_dir])
+        eval_confg=EvaluationConfig(
+            root_dir=config.root_dir,
+            model_path="artifacts/model_trainer/model.pkl",
+            test_data="artifacts/data_transformation/final_test.csv",
+            mlflow_uri=os.getenv('MLFLOW_TRACKING_URI'),
            
-    #     )    
-    #     return eval_confg    
+        )    
+        return eval_confg

@@ -2,7 +2,7 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  local_data_file: data/tested.csv
+  local_data_file: 
   train_file_path: artifacts/data_ingestion/train.csv
   test_file_path: artifacts/data_ingestion/test.csv
 
@@ -21,3 +21,7 @@ model_trainer:
   testing_data_path: artifacts/data_transformation/final_test.csv
 
 model_evaluation:
+  root_dir: artifacts/model_evaluation
+  model_path: artifacts/model_trainer/model.pkl
+  test_data: artifacts/data_transformation/final_test.csv
+  mlflow_uri: ${MLFLOW_TRACKING_URI}
